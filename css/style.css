@@ -1,0 +1,44 @@
+.row {
+  margin-right: inherit;
+  margin-left: inherit;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.content {
+  margin-top: 25px;
+}
+li {
+  list-style-type: none;
+}
+.list-inside {
+  overflow: auto;
+}
+.list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.list:last-child {
+  border-bottom: none;
+}
+.online {
+  color: #fff;
+  background-color: rgba(37, 128, 0, 0.71);
+}
+.offline {
+  color: #fff;
+  background-color: #4A5E82;
+}
+.btn-custom {
+  border: 1px solid #ccc;
+}
+.btn-controls {
+  max-width: 227px;
+  margin: 0 auto;
+}
+.btn-custom i {
+  margin-right: 3px;
+  color: #ccc;
+}
